@@ -1,0 +1,82 @@
+/* Testimonial.css */
+.testimonial {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 10px;
+}
+
+.testimonial .card-title {
+  font-weight: bold;
+}
+
+.testimonial .audio-player {
+  background-color: #e7e1fa;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.testimonial .audio-track input[type="range"] {
+  width: 100%;
+}
+
+.testimonial .audio-info img {
+  border: 2px solid white;
+}
+
+.person {
+  justify-content: end;
+  padding-right: 70px;
+}
+@media (max-width: 767.98px) {
+  .testimonial .audio-player {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .person {
+    justify-content: center;
+  }
+
+  .testimonial .audio-track {
+    width: 55%;
+  }
+}
+
+.custom-width {
+  width: 75%;
+}
+
+@media (min-width: 768px) {
+  .custom-width {
+    width: 50%;
+  }
+  .audio-player {
+    margin-left: 150px;
+  }
+}
+
+.play-button {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+
+.play-button:hover {
+  background-color: #4e1a66;
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: #4e1a66;
+}
+
+.form-range::-moz-range-thumb {
+  background-color: #4e1a66;
+}
+
+.form-range::-ms-thumb {
+  background-color: #4e1a66;
+}

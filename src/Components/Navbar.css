@@ -1,0 +1,106 @@
+/* Navbar.css */
+
+/* Custom CSS for additional styles */
+
+/* General styles */
+.hobbycue-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5b5b5b; /* Adjusted to fit the logo color */
+}
+
+.tagline {
+  font-size: 16px;
+  color: #7d7d7d;
+}
+
+input[type="text"] {
+  width: 300px;
+}
+
+.custom-btn {
+  background-color: #8064a2; /* Apply the custom purple color */
+  border-color: #8064a2; /* Apply the custom purple color */
+  color: white; /* Ensure the text is readable */
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+  background-color: #6e5290; /* Slightly darker shade for hover/focus states */
+  border-color: #6e5290; /* Slightly darker shade for hover/focus states */
+}
+
+.custom-outline-btn {
+  color: #8064a2; /* Apply the custom purple color */
+  border-color: #8064a2; /* Apply the custom purple color */
+}
+
+.custom-outline-btn:hover,
+.custom-outline-btn:focus {
+  color: white; /* Slightly darker shade for hover/focus states */
+  border-color: #6e5290; /* Slightly darker shade for hover/focus states */
+  background-color: #6e5290; /* Slightly darker shade for hover/focus states */
+}
+
+.bi {
+  color: #8064a2; /* Apply the custom purple color to icons */
+}
+
+.custom-rounded-left {
+  border-radius: 0px 8px 8px 0px;
+}
+
+.custom-rounded-right {
+  border-radius: 8px 0px 0px 8px;
+}
+
+.hide-1100 {
+  display: flex !important; /* Ensure the element is displayed */
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+/* Responsive styles */
+
+@media (max-width: 1100px) {
+  .hide-1100 {
+    display: none !important; /* Hide the element on smaller screens */
+  }
+
+  .tagline {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+  .logo {
+    margin-left: 10px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  input[type="text"] {
+    width: 200px; /* Adjust input width for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  input[type="text"] {
+    width: 150px; /* Further adjust input width for even smaller screens */
+  }
+
+  .custom-btn,
+  .custom-outline-btn {
+    padding: 5px 10px; /* Adjust button padding for smaller screens */
+  }
+
+  .custom-btn,
+  .custom-outline-btn,
+  .btn-light {
+    font-size: 12px; /* Reduce button font size for smaller screens */
+  }
+}

@@ -1,0 +1,170 @@
+.home-container {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 40px;
+  height: 40rem;
+}
+
+.display-4 {
+  font-weight: bold;
+  color: #000; /* Black color for "Explore your" */
+}
+
+.highlight {
+  color: #8064a2; /* Custom purple color for "hobby" and "passion" */
+}
+
+.highlight-blue {
+  color: #0096c8; /* Custom blue color for "interest" */
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: #5a5a5a; /* Darker gray for paragraph text */
+}
+
+.sign-in-card {
+  width: 100%;
+  max-width: 500px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-tabs .nav-link.active {
+  color: #8064a2; /* Custom purple color for active tab */
+  background-color: transparent;
+  border-radius: 0%;
+  border-color: transparent;
+  border-bottom: 2px solid #8064a2;
+}
+
+.nav-tabs .nav-link.not-active {
+  color: #bababa; /* Darker gray color for inactive tab */
+  background-color: transparent;
+  border-color: transparent;
+  pointer-events: visible;
+  cursor: pointer;
+}
+
+.nav-tabs .nav-link.not-active:hover {
+  color: #8064a2; /* Custom purple color for hover */
+}
+.google-btn,
+.facebook-btn {
+  width: 100%;
+  color: #8064a2; /* Custom purple color for button text */
+  border-color: #8064a2; /* Custom purple border color */
+}
+
+.google-btn:hover,
+.google-btn:focus,
+.facebook-btn:hover,
+.facebook-btn:focus {
+  color: white; /* Slightly darker shade for hover/focus */
+  border-color: #8064a2; /* Custom purple border color */
+  background-color: #6e5290;
+}
+
+.or-connect {
+  width: 100%;
+  text-align: center;
+  color: #bbb; /* Light gray color for "Or connect with" */
+  position: relative;
+}
+
+.or-connect::before,
+.or-connect::after {
+  content: "";
+  width: 30%;
+  height: 1px;
+  background: #ddd; /* Light gray for the lines */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.or-connect::before {
+  left: 0;
+}
+
+.or-connect::after {
+  right: 0;
+}
+
+.input-group input {
+  border-radius: 4px;
+  border-color: #ddd; /* Light border for inputs */
+}
+
+.forgot-password {
+  color: #8064a2; /* Custom purple color for "Forgot password?" */
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.custom-btn {
+  background-color: #8064a2; /* Custom purple background for button */
+  border-color: #8064a2; /* Custom purple border for button */
+  color: white; /* White text for button */
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+  background-color: #6e5290; /* Slightly darker shade for hover/focus */
+  border-color: #6e5290; /* Slightly darker shade for hover/focus */
+}
+
+.passbox {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.artwork-container {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  background-color: #f8f9fa; /* Same as container background to blend */
+}
+
+.people-artwork {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .artwork {
+    width: 50%;
+  }
+
+  .or-connect::before,
+  .or-connect::after {
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: #ddd; /* Light gray for the lines */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.tos {
+  color: #bbb;
+  font-size: 0.83rem;
+}
+
+.tos a {
+  color: #8064a2; /* Custom purple color for links */
+}
+
+.tos a:hover {
+  text-decoration: underline;
+}
+
+.small-text {
+  font-size: 0.83rem;
+}

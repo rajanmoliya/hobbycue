@@ -1,0 +1,11 @@
+.top-info {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0096c80c;
+}
+
+.mid-info {
+  padding: 5%;
+}

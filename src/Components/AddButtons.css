@@ -1,0 +1,20 @@
+.button-card {
+  border: 2px solid;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.button-card:hover {
+  background-color: var(--icon-color);
+  color: white;
+}
+
+.button-card .card-icon {
+  transition: color 0.3s;
+}
+
+.button-card:hover .card-icon,
+.button-card:hover .card-title,
+.button-card:hover .card-text {
+  color: white !important;
+}
